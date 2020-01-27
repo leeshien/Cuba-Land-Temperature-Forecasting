@@ -4,7 +4,7 @@
   
 ### 2. Split dataset to train-test set
   
-### 3. Analysis
+### 3. Analysis and Forecasting
   * Check for existing of trend by plotting the original time series and ACF 
   * Check for existing of seasonality by plotting ACF
   
