@@ -65,10 +65,9 @@ The LSTM output could be a normal `dense` layer or a `TimeDistributed dense` lay
 |Stacked encoder-decoder LSTM (best)| 1.0584 |
 
 **Conclusion** 
+- In terms of RMSE comparison, SARIMAX model outperformed the other three types of models. Whereas Prophet model has the least fitting time. Although deep learning models did not forecast as accurate as statistical models, at least their forecast results show that they have learnt some pattern (please refer to notebook) and not blindly making prediction. It is believed that deep learning models will perform better when there are more data available.
 
-In terms of RMSE comparison, SARIMAX model outperformed the other three types of models. Whereas Prophet model has the least fitting time. Although deep learning models did not forecast as accurate as statistical models, at least their forecast results show that they have learnt some pattern (please refer to notebook) and not blindly making prediction. It is believed that deep learning models will perform better when there are more data available.
-
-The following illustrates the forecast from SARIMAX model:
+- The following illustrates the forecast from SARIMAX model:
 ![alt text](https://raw.githubusercontent.com/leeshien/Cuba-Land-Temperature-Forecasting/master/Cuba_plot/Sarimax_forecast.JPG)
 
 
